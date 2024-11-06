@@ -1,0 +1,31 @@
+.userCard {
+    height: 100px;
+    width: 250px;
+    background-color: aqua;
+    padding: 5px 10px;
+    margin: 7px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.detailsButton {
+    padding: 5px 10px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detailsButton:hover {
+    background-color: darkgreen;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
